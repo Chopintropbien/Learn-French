@@ -10,6 +10,8 @@ import UIKit
 
 class HappyLadyViewController: UIViewController {
 
+    @IBOutlet weak var resp: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +34,7 @@ class HappyLadyViewController: UIViewController {
     }
     */
 
+    @IBAction func responses() {
+       resp.text = "Merci c'est gentil"
+    }
 }

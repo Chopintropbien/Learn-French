@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		98B714731AB5690400AFE2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B714721AB5690400AFE2DF /* AppDelegate.swift */; };
-		98B714751AB5690400AFE2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B714741AB5690400AFE2DF /* ViewController.swift */; };
 		98B714781AB5690400AFE2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B714761AB5690400AFE2DF /* Main.storyboard */; };
 		98B7147A1AB5690400AFE2DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B714791AB5690400AFE2DF /* Images.xcassets */; };
 		98B714861AB5690400AFE2DF /* Apprendre_le_francaisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B714851AB5690400AFE2DF /* Apprendre_le_francaisTests.swift */; };
+		98DBA04C1AB6CE7C0036B2C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA04B1AB6CE7C0036B2C1 /* MainViewController.swift */; };
+		98DBA04E1AB6CED10036B2C1 /* LadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA04D1AB6CED10036B2C1 /* LadyViewController.swift */; };
+		98DBA0501AB6CEDE0036B2C1 /* UpsetLadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA04F1AB6CEDE0036B2C1 /* UpsetLadyViewController.swift */; };
+		98DBA0521AB6CEF30036B2C1 /* HappyLadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA0511AB6CEF30036B2C1 /* HappyLadyViewController.swift */; };
+		98DBA0541AB6D0EE0036B2C1 /* dame tres contente .png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBA0531AB6D0EE0036B2C1 /* dame tres contente .png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +32,16 @@
 		98B7146D1AB5690400AFE2DF /* Apprendre le francais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apprendre le francais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B714711AB5690400AFE2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B714721AB5690400AFE2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98B714741AB5690400AFE2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98B714771AB5690400AFE2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98B714791AB5690400AFE2DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		98B7147F1AB5690400AFE2DF /* Apprendre le francaisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apprendre le francaisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B714841AB5690400AFE2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B714851AB5690400AFE2DF /* Apprendre_le_francaisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apprendre_le_francaisTests.swift; sourceTree = "<group>"; };
+		98DBA04B1AB6CE7C0036B2C1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		98DBA04D1AB6CED10036B2C1 /* LadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LadyViewController.swift; sourceTree = "<group>"; };
+		98DBA04F1AB6CEDE0036B2C1 /* UpsetLadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpsetLadyViewController.swift; sourceTree = "<group>"; };
+		98DBA0511AB6CEF30036B2C1 /* HappyLadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyLadyViewController.swift; sourceTree = "<group>"; };
+		98DBA0531AB6D0EE0036B2C1 /* dame tres contente .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dame tres contente .png"; path = "../../dame tres contente .png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				98B714721AB5690400AFE2DF /* AppDelegate.swift */,
-				98B714741AB5690400AFE2DF /* ViewController.swift */,
+				98DBA04B1AB6CE7C0036B2C1 /* MainViewController.swift */,
+				98DBA04D1AB6CED10036B2C1 /* LadyViewController.swift */,
+				98DBA04F1AB6CEDE0036B2C1 /* UpsetLadyViewController.swift */,
+				98DBA0511AB6CEF30036B2C1 /* HappyLadyViewController.swift */,
 				98B714761AB5690400AFE2DF /* Main.storyboard */,
 				98B714791AB5690400AFE2DF /* Images.xcassets */,
+				98DBA0531AB6D0EE0036B2C1 /* dame tres contente .png */,
 				98B714701AB5690400AFE2DF /* Supporting Files */,
 			);
 			path = "Apprendre le francais";
@@ -190,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B714781AB5690400AFE2DF /* Main.storyboard in Resources */,
+				98DBA0541AB6D0EE0036B2C1 /* dame tres contente .png in Resources */,
 				98B7147A1AB5690400AFE2DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B714751AB5690400AFE2DF /* ViewController.swift in Sources */,
 				98B714731AB5690400AFE2DF /* AppDelegate.swift in Sources */,
+				98DBA0521AB6CEF30036B2C1 /* HappyLadyViewController.swift in Sources */,
+				98DBA04C1AB6CE7C0036B2C1 /* MainViewController.swift in Sources */,
+				98DBA0501AB6CEDE0036B2C1 /* UpsetLadyViewController.swift in Sources */,
+				98DBA04E1AB6CED10036B2C1 /* LadyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Apprendre le francais/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Apprendre le francais/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +415,7 @@
 				98B7148B1AB5690400AFE2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98B7148C1AB5690400AFE2DF /* Build configuration list for PBXNativeTarget "Apprendre le francaisTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +424,7 @@
 				98B7148E1AB5690400AFE2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
